@@ -1,17 +1,17 @@
 import React from 'react';
 import './css/App.css';
-import Header from 'Header.js';
-import Nav from 'Nav.js';
-import Article from 'Article.js';
-import Footer from 'Footer.js';
+import Header from './Header';
+import Nav from './Nav';
+import Article from './Article';
+// import Footer from './Footer';
 
 function App() {
   return (
     <div className="blog">
       <Header/>
-      <Nav/>
-      <Article/>
-      <Footer/>
+       <Nav/>
+       <Article/>
+       {/*<Footer/>*/}
     </div>
   );
 }
