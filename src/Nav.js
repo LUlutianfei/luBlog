@@ -6,11 +6,11 @@ class Nav extends React.Component{
 		return(
 			<nav>
 				<ul>
-					<li><a href="./">主页</a></li>
-					<li><a href="./">文章</a></li>
-					<li><a href="./">作品</a></li>
-					<li><a href="./">随笔</a></li>
-					<li><a href="./">图集</a></li>
+					<li><a href="./App.js">主页</a></li>
+					<li><a href="./App.js">文章</a></li>
+					<li><a href="./App.js">作品</a></li>
+					<li><a href="./App.js">随笔</a></li>
+					<li><a href="./App.js">图集</a></li>
 				</ul>
 			</nav>
 		)
