@@ -16,6 +16,7 @@
 	box-sizing: border-box;
 	position: relative;
 	top: -80px;
+	z-index: 10;
 }
 /*.left,.right{
 	position: absolute;

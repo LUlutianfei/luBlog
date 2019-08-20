@@ -1,0 +1,15 @@
+footer{
+	margin-top: 20px;
+	width: 100%;
+	height: 50px;
+	background-color: #800080;
+}
+.connect{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+.connect img{
+	width: 30px;
+	margin:10px 30px 0;
+}

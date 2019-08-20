@@ -58,9 +58,13 @@ class Sideshow extends React.Component{
 			backgroundImage: `url(${this.state.img})`,
 			backgroundSize:'100% 100%',
 			transition: '2s all',
+			position: 'relative'
 		};
 		let smallImgs = this.imgs.map((val,i)=>(
-			<img key={i} onMouseOver={this.change.bind(this,i)} style={{display:this.state.mouse?'inline':'none',boxShadow:this.i==i?'5px 5px 10px 2px #666':'none'}}  className="smallImg" alt="缩略图" src={val} />
+			<img key={i} onMouseOver={this.change.bind(this,i)} 
+				style={{display:this.state.mouse?'inline':'none',
+				boxShadow:this.i===i?'5px 5px 10px 2px #666':'none'}}  
+				className="smallImg" alt="缩略图" src={val} />
 		));
 		return(
 			<div   style={sectionStyle} >
