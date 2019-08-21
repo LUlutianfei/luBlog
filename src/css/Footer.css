@@ -8,8 +8,31 @@ footer{
 	width: 1000px;
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
 }
-.connect img{
+.icon{
 	width: 30px;
 	margin:10px 30px 0;
+}
+.code{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.qr{
+	width: 100px;
+	position: absolute;
+	bottom: 0;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.QQ_QR{
+	margin-left: -150px;
+}
+.WeChat_QR{
+	margin-left: -50px;
+}
+.WeiBo_QR{
+	margin-left: 50px;
 }
