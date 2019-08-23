@@ -3,35 +3,35 @@ header{
 	margin: 0 auto;
 	height: 80px;
 }
-.logo{
+.header_logo{
 	border-radius: 630px;
 	width: 60px;
 	margin: 10px;
 	float:left;
 }
-.title{
+.header_title{
 	float: left;
 	margin-left: 10px;
 	margin-top: 20px;
 	font-size: 20px;
 	vertical-align: center;
 }
-.name{
+.header_name{
 	font-weight: 800;
 	color: #800080;
 	opacity: .9;
 	font-size: 40px;
 }
-.search{
+.header_search{
 	border: 2px solid #e3e3e3;
 	height: 30px;
 	float: right;
 	margin: 25px 0;
 }
-.search:focus{
+.header_search:focus{
 	outline: none;
 }
-.find{
+.header_find{
 	width: 30px;
 	float:right;
 	background-color: #800080;

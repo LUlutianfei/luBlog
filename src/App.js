@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Home from './Home';
-import New from './New';
-import Demo from './Demo';
-import Mood from './Mood';
-import Image from './Image';
+import Home from './home/Home';
+import New from './new/New';
+import Demo from './demo/Demo';
+import Mood from './mood/Mood';
+import Image from './image/Image';
 
 
 class App extends Component {

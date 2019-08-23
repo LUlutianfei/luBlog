@@ -7,10 +7,10 @@ class Header extends React.Component{
 	render(){
 		return(
 			<header>
-				<img src={Logo} className="logo" alt='logo' />
-				<p className="title"><span className="name">lulu</span> Blog</p>
-				<img className="find" src={Find} alt='搜索' />
-				<input className="search" type='search'/>
+				<img src={Logo} className="header_logo" alt='logo' />
+				<p className="header_title"><span className="header_name">lulu</span> Blog</p>
+				<img className="header_find" src={Find} alt='搜索' />
+				<input className="header_search" type='search'/>
 			</header>
 		)
 	}

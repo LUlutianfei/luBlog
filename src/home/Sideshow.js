@@ -64,14 +64,14 @@ class Sideshow extends React.Component{
 			<img key={i} onMouseOver={this.change.bind(this,i)} 
 				style={{display:this.state.mouse?'inline':'none',
 				boxShadow:this.i===i?'5px 5px 10px 2px #666':'none'}}  
-				className="smallImg" alt="缩略图" src={val} />
+				className="sideshow_smallImg" alt="缩略图" src={val} />
 		));
 		return(
 			<div   style={sectionStyle} >
-				<div onMouseOver={this.mouseover} onMouseOut={this.mouseout} className="sideShow">
-					{/*<div className="left" ></div>*/}
-					<img className="sideImg" alt="轮播图" src={this.state.img} />
-					{/*<div className="right" ></div>*/}
+				<div onMouseOver={this.mouseover} onMouseOut={this.mouseout} className="sideshow_sideShow">
+					{/*<div className="sideshow_left" ></div>*/}
+					<img className="sideshow_sideImg" alt="轮播图" src={this.state.img} />
+					{/*<div className="sideshow_right" ></div>*/}
 					{smallImgs}
 				</div>
 

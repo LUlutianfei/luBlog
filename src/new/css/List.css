@@ -1,0 +1,31 @@
+.list_newItem{
+	width: 1000px;
+	margin: 50px auto;
+	height: 135px;
+	border: 1px solid #e2e2e2;
+}
+.list_six{
+	width: 30px;
+	background-color: #800080;
+	float: left;
+	border-radius: 0 0 10px 10px;
+	padding: 6px 2px;
+	margin: 0 10px;
+}
+.list_title{
+ 	font-size: 26px;
+	font-size: 18px;
+	color: #800080;	
+	font-weight: 900;
+	line-height: 42px;
+}
+.list_content{
+	font-size: 14px;
+	color:#666;
+	padding: 10px;
+}
+.list_time{
+	margin: 0 10px;
+	text-align: right;
+	color:#666;
+}

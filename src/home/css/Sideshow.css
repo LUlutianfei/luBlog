@@ -1,17 +1,17 @@
-.sideShow{
+.sideshow_sideShow{
 	width: 1000px;
 	height: 400px;
 	margin: 0 auto;
 	position: relative;
 }
-.sideImg{
+.sideshow_sideImg{
 	width: 100%;
 	height: 300px;
 	margin: 20px 0 0;
 	transition: 1s all;
 	border: 5px ridge #dbdbdb;
 }
-.smallImg{
+.sideshow_smallImg{
 	width: 25%;
 	box-sizing: border-box;
 	position: relative;
