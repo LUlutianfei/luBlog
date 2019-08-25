@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from '../Header';
 import Nav from '../Nav';
-
+import Item from './Item.js';
 
 class Demo extends React.Component{
 	// constructor(props){
@@ -13,6 +13,7 @@ class Demo extends React.Component{
 			<div>
 				<Head/>
 				<Nav/>
+				<Item/>
 			</div>
 		)
 	}
